@@ -1,0 +1,14 @@
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Data\bin\Debug\Data.dll.config
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Data\bin\Debug\Data.dll
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Data\bin\Debug\Data.pdb
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Data\bin\Debug\Entities.dll
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Data\bin\Debug\EntityFramework.dll
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Data\bin\Debug\Entities.pdb
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Data\bin\Debug\EntityFramework.xml
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Data\obj\Debug\Data.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Data\obj\Debug\Data.dll
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Data\obj\Debug\Data.pdb

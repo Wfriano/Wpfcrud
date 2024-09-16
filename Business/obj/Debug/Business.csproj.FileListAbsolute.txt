@@ -1,0 +1,17 @@
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Business\bin\Debug\Business.dll
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Business\bin\Debug\Business.pdb
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Business\bin\Debug\Entities.dll
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Business\bin\Debug\Repository.dll
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Business\bin\Debug\Data.dll
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Business\bin\Debug\EntityFramework.dll
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Business\bin\Debug\Entities.pdb
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Business\bin\Debug\Repository.pdb
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Business\bin\Debug\Repository.dll.config
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Business\bin\Debug\Data.pdb
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Business\bin\Debug\Data.dll.config
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Business\bin\Debug\EntityFramework.xml
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Business\obj\Debug\Business.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Business\obj\Debug\Business.csproj.CopyComplete
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Business\obj\Debug\Business.dll
+C:\Users\Dell\Desktop\Samtel\WpfCrud\Business\obj\Debug\Business.pdb

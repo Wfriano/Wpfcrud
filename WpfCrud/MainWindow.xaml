@@ -1,0 +1,71 @@
+﻿<Window x:Class="WpfCrud.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Gestión de Usuarios" Height="650" Width="700">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <GroupBox Header="Crear/Editar Usuario" Grid.Row="0" Margin="0,0,0,10">
+            <StackPanel>
+
+                <StackPanel Orientation="Vertical" Margin="5">
+                    <Label Content="Nombres" VerticalAlignment="Center"/>
+                    <TextBox Name="UserFirstNameTextBox" Width="200" VerticalAlignment="Center"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Vertical" Margin="5">
+                    <Label Content="Apellidos" VerticalAlignment="Center"/>
+                    <TextBox Name="UserLastNameTextBox" Width="200" VerticalAlignment="Center"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Vertical" Margin="5">
+                    <Label Content="Cargo" VerticalAlignment="Center"/>
+                    <TextBox Name="UserRoleTextBox" Width="200" VerticalAlignment="Center"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Vertical" Margin="5">
+                    <Label Content="Correo" VerticalAlignment="Center"/>
+                    <TextBox Name="UserEmailTextBox" Width="200" VerticalAlignment="Center"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Content="Crear Usuario" Width="150" Margin="5" Click="CreateUser_Click"/>
+                    <Button Content="Guardar Cambios" Width="150" Margin="5" Click="UpdateUser_Click" IsEnabled="False" Name="UpdateButton"/>
+                </StackPanel>
+
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox Header="Lista de Usuarios" Grid.Row="1">
+            <DataGrid Name="UsersDataGrid" AutoGenerateColumns="False" ItemsSource="{Binding PagedUsers}" SelectionMode="Single" SelectionChanged="UsersDataGrid_SelectionChanged">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Nombres" Binding="{Binding Nombres}" Width="*"/>
+                    <DataGridTextColumn Header="Apellidos" Binding="{Binding Apellidos}" Width="*"/>
+                    <DataGridTextColumn Header="Cargo" Binding="{Binding Cargo}" Width="*"/>
+                    <DataGridTextColumn Header="Correo" Binding="{Binding Correo}" Width="*"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </GroupBox>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content="Anterior" Width="100" Margin="10" Click="PreviousPage_Click"/>
+            <TextBlock Text="{Binding PageInfo}" VerticalAlignment="Center" FontWeight="Bold"/>
+            <Button Content="Siguiente" Width="100" Margin="10" Click="NextPage_Click"/>
+        </StackPanel>
+
+        <GroupBox Header="Asignar Área" Grid.Row="3" Margin="0,10,0,0">
+            <StackPanel>
+                <StackPanel Orientation="Vertical" Margin="5">
+                    <Label Content="Seleccionar Área" VerticalAlignment="Center"/>
+                    <ComboBox Name="AreaComboBox" Width="200" DisplayMemberPath="NombreArea" SelectedValuePath="IdArea"/>
+                </StackPanel>
+                <Button Content="Asignar Área al Usuario" Width="200" Margin="5" Click="AssignArea_Click"/>
+            </StackPanel>
+        </GroupBox>
+    </Grid>
+</Window>
